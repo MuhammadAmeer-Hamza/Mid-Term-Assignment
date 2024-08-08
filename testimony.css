@@ -1,0 +1,356 @@
+/* website all BG color code :rgb"255, 240, 202" */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  height: 100%;
+  background-color: rgb(255, 240, 202);
+  border-bottom: 3px solid rgba(77, 248, 168, 0.639);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+main>p {
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.testimon {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Satisfied {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+p.pre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.container>div>img {
+  width: 7rem;
+  border-radius: 300px;
+  margin-left: 30px;
+}
+
+.main {
+  position: relative;
+  padding-left: 9px;
+
+  text-align: left;
+}
+
+.icon {
+  padding-left: 9px;
+
+  text-align: left;
+  /* background-color: blue; */
+  position: absolute;
+  background-color: rgb(255, 240, 202);
+  width: 5em;
+  height: 1.6em;
+  border-radius: 30em;
+  bottom: 1px;
+  left: 52%;
+}
+
+.container {
+  /* border-style: solid;
+  border-width: 5px; */
+  /* background: #4fe19f; */
+  width: 23vw;
+  height: 38vh;
+  margin: 17px;
+}
+
+.ooo {
+  /* background-color: rgb(121, 121, 225); */
+  height: 19vh;
+  line-height: 30px;
+  text-align: center;
+  /* border-left: 1px solid #14ae69; */
+  padding-left: 12px;
+  padding-right: 19px;
+  margin-top: 19px;
+  border-left: 3px solid rgba(0, 235, 125, 0.707);
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+}
+
+.HEAD-5 {
+  margin-top: 20px;
+}
+
+.hh {
+  margin-left: 60px;
+}
+
+.foot-main>div>a>img {
+  width: 10vw;
+  text-decoration: none;
+  height: 10vh;
+  /* background-color: blue; */
+}
+
+.foot-main {
+  /* margin-top: 50px; */
+  padding-top: 90px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* .foot-2main {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(249, 217, 137, 0.999);
+
+  margin-top: 90px;
+  position: relative;
+} */
+/* .foot-2main>div>p{
+  display: flex;
+  flex-wrap: wrap;
+} */
+.foot-text {
+  /* background-color: aquamarine; */
+  width: 40vw;
+  margin-left: 50px;
+  padding-left: 20px;
+  /* text-align:center; */
+}
+
+.foot-input {
+  display: flex;
+  /* position: absolute; */
+  width: 70vh;
+  text-align: center;
+}
+
+/* .foot-input > div > button,
+input {
+  background-color: cadetblue;
+} */
+.foot-input>div>button {
+  width: 9vw;
+  height: 5.5vh;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.foot-input>div>input {
+  width: 25vw;
+  text-decoration: none;
+  padding-left: 8px;
+  height: 5vh;
+}
+
+footer {
+  background-color: rgb(255, 240, 202);
+  height: 100%;
+}
+
+/* .ft-icn {
+  position: relative;
+  bottom: 10px;
+  background: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: relative;
+} */
+/* .icn{
+}  */
+.foot-2main {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(251, 224, 144, 0.999);
+  margin-top: 90px;
+  position: relative;
+  justify-content: space-between;
+  /* Adjust this to align the other content as needed */
+}
+
+.ft-icn {
+  position: absolute;
+  bottom: -30px;
+  /* Adjust this value to center the circle on the border */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(14, 206, 116, 0.643);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Optional: adds a shadow for better visibility */
+}
+
+.Lst-txt {
+  margin-left: 19px;
+  /* background-color: #fff; */
+  width: 80vw;
+  display: flex;
+  margin-left: 90px;
+  justify-content: space-between;
+  line-height: 20px;
+}
+
+.lst-1>ul {
+  list-style: none;
+}
+
+.lst-2>ul>a,
+.lst-3>ul>a,
+.lst-2>ul {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+
+}
+
+.lst-3>ul>li {
+  list-style: none;
+  /* line-height: 90px; */
+}
+
+.lst-3>ul {
+  line-height: 20px;
+}
+
+.li-itm {
+  margin-top: 0px;
+}
+
+.lst-4>ul {
+  margin-top: 40px;
+  list-style: none;
+  line-height: 40px;
+}
+
+.icn-txt-one {
+  display: flex;
+  /* background-color:   #be1f1f; */
+  /* justify-content: space-evenly; */
+  width: 200px;
+  padding: 40px;
+  padding-left: 2px;
+}
+
+.icn-txt-two {
+  display: flex;
+  display: flex;
+  /* background-color: #be1f1f; */
+  /* justify-content: space-evenly; */
+  width: 200px;
+  padding: 40px;
+  padding-left: 2px;
+  padding-top: 10px;
+}
+
+.lst-icn {
+  width: 60vw;
+  height: 40vh;
+  /* border-radius: 50%; */
+  background-color: rgb(255, 240, 202);
+  /* background-color: #c01d1d; */
+}
+
+.i-1 {
+  background-color: rgba(251, 224, 144, 0.999);
+  width: 72px;
+  height: 72px;
+  margin-left: 14px;
+  border-radius: 50%;
+
+}
+
+.i-1>i {
+  align-items: center;
+  padding: 29px;
+}
+
+.i-2 {
+  background-color: rgba(251, 224, 144, 0.999);
+  width: 72px;
+  height: 72px;
+  margin-left: 14px;
+  border-radius: 50%;
+  margin-top: 4px;
+
+}
+
+.i-2>i {
+  align-items: center;
+  padding: 29px;
+}
+
+.i-3 {
+  background-color: rgba(251, 224, 144, 0.999);
+  width: 72px;
+  height: 72px;
+  margin-left: 14px;
+  border-radius: 50%;
+  margin-top: 4px;
+
+}
+
+.i-3>i {
+  align-items: center;
+  padding: 29px;
+  color: #6d2222;
+}
+.yourdomain{
+  /* background-color: #fff; */
+  margin-left: 12px;
+  /* height: 23vh; */
+  /* padding-top:9px ; */
+  /* margin-bottom: 90px; */
+  /* border: 1px solid cyan; */
+}
+.USA{
+  /* background-color: #fff; */
+  margin-left: 12px;
+  height: 10vh;
+  /* padding-top:9px ; */
+  /* margin-top: 6px; */
+  /* margin-bottom: 90px; */
+  /* border: 1px solid cyan; */
+}
+.phone{
+  /* border: 1px solid cyan;
+  background-color: #fff; */
+  padding-top: 15px;
+}
+.top>ul,.top{
+  margin-left: 450px;
+  text-decoration: none;
+  color: #000;
+  border: 3px solid rgba(1, 14, 8, 0.643);
+  /* padding-left: 45px; */
+  padding: 17px;
+  
+}
