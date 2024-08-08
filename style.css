@@ -82,7 +82,7 @@
     margin-right: 0.38rem;
   }
   
-  header.topbar .icon a {
+  header.topbar .social-media-icon a {
     margin-right: 0.5rem;
   }
   
@@ -902,6 +902,7 @@ body {
 }
 
 /*hani*/
+/* website all BG color code :rgb"255, 240, 202" */
 * {
   margin: 0;
   padding: 0;
@@ -910,7 +911,7 @@ body {
 article {
   height: 100%;
   background-color: rgb(255, 240, 202);
-  border-bottom: 3px solid rgba(77, 248, 168, 0.639);
+  border-bottom: 3px solid #0f7946;
 }
 
 main {
@@ -987,7 +988,7 @@ p.pre {
   padding-left: 12px;
   padding-right: 19px;
   margin-top: 19px;
-  border-left: 3px solid rgba(0, 235, 125, 0.707);
+  border-left: 3px solid #0f7946;
 }
 
 section {
@@ -1101,7 +1102,7 @@ footer {
   /* Adjust this value to center the circle on the border */
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(14, 206, 116, 0.643);
+  background: #0f7946;
   width: 60px;
   height: 60px;
   border-radius: 50%;
